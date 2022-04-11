@@ -1,0 +1,23 @@
+{
+  "name": "丝滑 Scroll",
+  "version": "1.0.0",
+  "author": "dev-coco",
+  "manifest_version": 3,
+  "description": "体验页面丝滑顺畅的滚动。",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+      "128": "icon.png"
+    },
+  "content_scripts": [
+    {
+      "matches": [
+       "https://www.facebook.com/*"
+      ],
+        "js": ["inject.js"],
+        "css": ["blank.css"]
+    }
+  ],
+  "host_permissions": ["https://www.facebook.com/*"]
+}
