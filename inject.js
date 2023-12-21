@@ -1,12 +1,10 @@
-window.onload = function () {
+window.onload = () => {
   let timeoutID, postsNum
-  window.addEventListener('scroll', function () {
+  window.addEventListener('scroll', () => {
     clearTimeout(timeoutID)
-    timeoutID = setTimeout(function () {
-      const posts = document.querySelectorAll('div[class="du4w35lb k4urcfbm l9j0dhe7 sjgh65i0"]')
-      if (posts.length === 0) {
-        return
-      }
+    timeoutID = setTimeout(() => {
+      const posts = document.querySelectorAll('[class="x1yztbdb x1n2onr6 xh8yej3 x1ja2u2z"]')
+      if (posts.length === 0) return
       if (posts.length - 13 >= 3) {
         postsNum = posts.length - 13
         for (let i = 0; i < postsNum; i++) {

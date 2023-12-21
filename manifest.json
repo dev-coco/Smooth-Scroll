@@ -1,9 +1,9 @@
 {
-  "name": "丝滑 Scroll",
-  "version": "1.0.0",
-  "author": "dev-coco",
+  "name": "丝滑滚动",
+  "version": "1.0.1",
+  "author": "Raz1ner",
   "manifest_version": 3,
-  "description": "体验页面丝滑顺畅的滚动。",
+  "description": "体验 Facebook 页面丝滑顺畅的滚动。",
   "action": {
     "default_icon": "icon.png"
   },
